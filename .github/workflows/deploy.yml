@@ -1,17 +1,13 @@
-# This is a basic workflow to help you get started with Actions
+name: Github Pages Astro CI
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # Activa el workflow cada vez que hay un push a la rama `main`
+  # ¿Estás usando un nombre diferente de rama? Reemplaza `main` con el nombre de tu rama
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: [ main ]
+  # Te permite ejecutar este workflow manualmente desde la pestaña Actions en GitHub.
   workflow_dispatch:
+  
 # Permite clonar el repositorio y desplegar el proyecto
 permissions:
   contents: read
