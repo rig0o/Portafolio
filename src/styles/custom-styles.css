@@ -4,12 +4,7 @@
   margin: 2rem 0;
   font-style: normal;
   font-weight: 600;
-  background: linear-gradient(
-    89.81deg,
-    #9845e8 -1.72%,
-    #33d2ff 54.05%,
-    #dd5789 99.78%
-  );
+  background: linear-gradient(100deg, rgba(239,68,68,1) 0%, rgba(237,93,53,1) 49%, rgba(231,154,47,1) 71%); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

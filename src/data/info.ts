@@ -1,93 +1,82 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
-  `,
+  name: "Rodrigo Mamani",
+  jobDescription: "Software Engineer",
+  about: `Estudiante de último año(pronto a egresar) de la carrera Ingeniería en Computación de la Universidad de La Serena.
+  Durante mi carrera he tenido la oportunidad de trabajar en diferentes proyectos, tanto personales como académicos, los cuales me han permitido adquirir experiencia en el desarrollo de aplicaciones web, móviles y aplicaciones de escritorio, así como también en el desarrollo de aplicaciones junto a clientes reales. las tecnologias en las cuales tengo conocimientos son: C#, Python, Java, Dart, HTML, CSS, JS, Flutter, Sqlite, Postgres, MySql, MongoDB.
+  Sin embargo, aprendo continuamente y nunca dejo de explorar nuevas tecnologías, como AWS, ElasticSearch, NodeJS, flask, etc.
+
+  `
+  ,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "AI-Fred (proyecto de personal)",
+      location: "La Serena, Chile",
+      startDate: "Sep 2022",
+      endDate: "Dic 2022",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "Ai-Fred ''tu porton inteligente'', es una proyecot de vison artificila que automatiza el control de acceso a un porton electrico, mediante el reconocimientos optico de las placas patentes de los vehiculos que buscan acceder a un condominio rural. El sistema cuenta con un bot de telegram, el cual permite a los administradores del condominio, crear listas para permitir o denegar el acceso al condominio, asi como tambien, mostrar el historial de los vehiculos que han ingresado al condominio.",
+        "✓ Deteccion de vehiculos",
+        "✓ Detectar placas patentes",
+        "✓ Reconocimiento optico de caracteres",
+        "✓ Bot de telegram",
+        "✓ Tecnologias: Python, OpenCV, Sqlite,Telegram"
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Sito Web CUT Provincial Elqui",
+      location: "La Serena, Chile",
+      startDate: "Sep 2022",
+      endDate: "Dic 2022",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "Desarrollo de sitio web para la CUT Provincial Elqui, el cual permitira a los trabajadores de la provincia, tener un espacio donde puedan encontrar informacion sobre los diferentes sindicatos, sus representantes, noticia, comunicados etc.",
+        "✓ Tecnologias: PHP, MySql, HTML, CSS, JS, Bootstrap."
       ],
     },
-
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "Roocki's map",
+      location: "La Serena, Chile",
+      startDate: "Abr 2022,",
+      endDate: "Jul 2022",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "Desarrollo de aplicacion movil, para el departamento de administracion de la universidad de la serena, la cual permitira a los estudiantes y profesores, tener un mapa de la universidad, con la ubicacion de los diferentes edificios, aulas, laboratorios, etc.",
+        "✓ Tecnologias: Flutter, Dart, Mapbox, AWS",
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
+      name: "University of La Serena",
+      location: "La Serena, Chile",
+      startDate: "2016",
       endDate: "2022",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Licenciatura en ciencias de la computación,  Ingeniería en Computación",
       ],
-    },
-    {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
-    },
+    }
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    facebook: "https://www.facebook.com",
+    twitter: "https://twitter.com",
+    github: "https://github.com/rig0o",
+    email: "rmamani199@gmail.com",
+    linkedin: "https://www.linkedin.com/",
   },
 
   projects: [
     {
       title: "Astro Portfolio",
+      isFeatured: true,
+      thumbnail: "/assets/images/astro-portfolio.png",
+      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+    },
+    {
+      title: "Roocki's map",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
       githubUrl: "https://github.com/uzzii-21/astro-portfolio",
